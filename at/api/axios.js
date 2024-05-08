@@ -1,10 +1,10 @@
-require("dotenv").config();
+
 import axios from "axios";
 
-const BACKEND_API_URL = "http://localhost:4000/api/v1";
+
 
 const axiosInstance = axios.create({
-  baseURL: BACKEND_API_URL,
+ 
   headers: {
     "Content-Type": "application/json",
   },
